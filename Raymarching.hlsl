@@ -12,6 +12,7 @@ for (int i =0 ; i < 256 ; i++)
     {
         return float3(1,0,0); // if inside this sphere, return color red
     }
+  opacityMask = 1;
   rayOrigin += rayStep;
 }
 
