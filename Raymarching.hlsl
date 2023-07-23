@@ -15,5 +15,5 @@ for (int i =0 ; i < 256 ; i++)
   opacityMask = 1;
   rayOrigin += rayStep;
 }
-
-return float3(0,0,0); //othereise, return black (empty/transparent)
+opacityMask = 0; //make the outside transparent
+return float3(0,0,0); //othereise, return black
