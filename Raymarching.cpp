@@ -15,7 +15,7 @@ for (int i = 0 ; i < 256 ; i++)
         float3 normal = normalize(rayOrigin - sphereCenter);
         float diffuse = max(dot(normal, lightDirection),0); //calculate shadow area
         float3 reflection = reflect(lightDirection, normal); //calculate highlight
-        float3 viewDirection = normalize(worldPos - rayOrigin);
+        float3 viewDirection = normalize(-worldPos - rayOrigin);
         float3 specular = pow(max(dot(reflection, viewDirection),0), 16);
         
         return (diffuse * sphereColor) + (specular * highlightColor) ; // if inside this sphere, return color red, based on diffuse (shadow)
