@@ -28,8 +28,7 @@ dist = 1 - clamp (dist,0,1);
 
 float3 lightAngle = dot (normalize(lightDir), lightDirection);
 lightAngle = 1 - clamp(lightAngle,0,1);
-coneAngle = 1 - cos(coneAngle);
-tempAngle = lightAngle / coneAngle;
+tempAngle = lightAngle / (1 - cos(coneAngle));
 finalAngle = 1 - clamp(tempAngle, 0,1);
 
 return light * dist * finalAngle;
