@@ -25,4 +25,8 @@ https://github.com/ariaxxxi/UE-Shader-HLSL/assets/87568028/508b0a07-3cee-4376-b6
 
 ### Cel Shader with Customized Light
 
+Create a cel shader in material function:
+
 ![Image 059](https://github.com/ariaxxxi/UE-Shader-HLSL/assets/87568028/ce1537cb-cefc-4bce-928d-40eec010a8f1)
+
+Expose it to material library, then create a material using this node.
