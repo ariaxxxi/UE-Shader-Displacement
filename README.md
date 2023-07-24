@@ -22,3 +22,7 @@ https://github.com/ariaxxxi/UE-Shader-HLSL/assets/87568028/508b0a07-3cee-4376-b6
 
 ![image](https://github.com/ariaxxxi/UE-Shader-HLSL/assets/87568028/6d9dccfc-4afe-4dff-a25d-9474e318875c)
 
+
+### Cel Shader with Customized Light
+
+![Image 059](https://github.com/ariaxxxi/UE-Shader-HLSL/assets/87568028/ce1537cb-cefc-4bce-928d-40eec010a8f1)
