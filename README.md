@@ -12,6 +12,3 @@
 ![Image 057](https://github.com/ariaxxxi/UE-Shader-Distortion/assets/87568028/13f7f99d-f4ca-41fc-9bbe-5b13bcbe1bfb)
 
 
-## Raymarching (Raymarching.cpp)
-
-<img width="736" alt="Screenshot 2023-07-23 at 6 49 54 PM" src="https://github.com/ariaxxxi/UE-Shader-HLSL/assets/87568028/4beb99c8-0ba3-41c9-b10f-93354930fd3a">
