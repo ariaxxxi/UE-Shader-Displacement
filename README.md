@@ -27,6 +27,6 @@ https://github.com/ariaxxxi/UE-Shader-HLSL/assets/87568028/508b0a07-3cee-4376-b6
 
 Create a cel shader in material function:
 
-![Image 059](https://github.com/ariaxxxi/UE-Shader-HLSL/assets/87568028/ce1537cb-cefc-4bce-928d-40eec010a8f1)
+![Image 059](https://github.com/ariaxxxi/UE-Shader-HLSL/assets/87568028/d5fafe0f-091b-4e6e-b3a2-a85ee2ce059c)
 
 Expose it to material library, then create a material using this node.
