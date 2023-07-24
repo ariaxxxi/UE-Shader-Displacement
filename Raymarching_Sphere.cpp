@@ -1,8 +1,8 @@
 // 2DCircle = length(pos-uv);
 // 3DSphere = length(rayOrigin - sphereCenter) - sphereRadius;
 
-float3 rayOrigin = cameraDir - worldPos; //calculates the starting point of the ray that originates from the camera's position and moves in the direction of the current pixel
-float3 rayStep = cameraDir * 1; // set the step size along the ray direction to the direction of the camera view, which means the ray will move one unit at a time in that direction
+float3 rayOrigin = 1- (cameraDir - worldPos); //calculates the starting point of the ray that originates from the camera's position and moves in the direction of the current pixel
+float3 rayStep = cameraDir * -1; // set the step size along the ray direction to the direction of the camera view, which means the ray will move one unit at a time in that direction
 
 float3 lightDirection = normalized(lightPos); //calculates the normalized direction vector from the current pixel towards the light source
 
